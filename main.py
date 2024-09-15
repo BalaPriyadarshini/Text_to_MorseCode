@@ -27,7 +27,7 @@ class TextToMorse:
         self.opening_screen()
 
     def opening_screen(self):
-        self.image_path = r"C:\Users\saivi\OneDrive\Desktop\4.jpg"
+        self.image_path = r""
         self.image = Image.open(self.image_path)
         self.bg_image = ImageTk.PhotoImage(self.image)
         self.label = tk.Label(root, image=self.bg_image)
